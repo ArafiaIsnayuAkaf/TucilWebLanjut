@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
+    overflow: visible;
     background-color: #E4E2FF;
 }
 
@@ -27,6 +27,15 @@ body {
     padding: 0 2rem;
 }
 
+.footer-copyright{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #999;
+    font-size: 0.9rem;
+    transition: .3s;
+    
+}
 .img {
     display: flex;
     justify-content: flex-end;
